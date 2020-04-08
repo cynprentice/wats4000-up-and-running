@@ -10,7 +10,7 @@ export default {
   name: 'editor',
   data () {
     return {
-      input: '# hello world'
+      input: '# hello crazy world'
     }
   },
   computed: {
@@ -41,6 +41,7 @@ textarea, .editor div {
   box-sizing: border-box;
   padding: 0 20px;
   text-align: left;
+  color: blue;
 }
 
 textarea {
